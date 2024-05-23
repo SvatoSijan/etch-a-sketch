@@ -1,0 +1,73 @@
+body {
+    animation: changeBackground 75s linear infinite;
+    background-color: rgb(32, 32, 33);
+    margin: 0;
+    height: 100vh;
+    color: white;
+}
+
+@keyframes changeBackground {
+    0% {
+        background-color: rgb(32, 32, 33);
+    }
+    25% {
+        background-color: rgb(41, 41, 79);
+    }
+    50% {
+        background-color: rgb(53, 19, 53);
+    }
+    75% {
+        background-color: rgb(41, 41, 79);
+    }
+    100% {
+        background-color: rgb(32, 32, 33);
+    }
+}
+header {  
+    margin: 8px;
+    margin-top: 8px;
+    background: linear-gradient(to right, rgb(97, 66, 118,.7), rgb(36, 15, 51));
+    color: darkkhaki;
+    margin-bottom: 30px;
+  }
+  a:visited {
+    color: inherit;
+  }
+
+.main{
+    display: flex;
+    flex-direction: row;
+    margin: 50px;
+}
+.custamization{
+    margin: 50px;
+    align-items: center;
+}
+
+.item {
+    height: min-content 25px;
+    width: min-content 25px;
+    margin: 2px;
+    background: rgb(183, 174, 174);
+    box-sizing: border-box;
+  }
+  
+  #grid-container {
+    display: grid;
+    grid-template-columns: repeat(7, minmax(0, 1fr));
+    width: 500px;
+    height: 500px;
+    background-color: black;
+    border: 2px solid black;
+  }
+#chosenColor{
+    width: 100px;
+    align-items: center;
+    height: 20px;
+    border: 2px solid white;
+    background-color: rgb(25,50,50);
+}
+label{
+    width: 50px;
+    align-items: center;
+}

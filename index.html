@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Etch-a-Sketch</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="code.js" defer></script>
+</head>
+<body>
+    <header><h1>Select Box per Line.</h1></header>
+        <div class="main">
+            
+
+
+
+            <div id="grid-container"></div>
+
+
+            <div class = "custamization">
+
+                <!-- For number of grid in the drawing board-->
+                <label for="gridLength">How many box per line?</label>
+                <input type="range" id="gridLength" name="gridLength" min="0" max="32" value="0">
+                <span id="sliderValueGridLength">:  0</span><br><br>
+
+                <!-- For type of color -->
+                    <!--Rainbow Mode-->
+                    <br><button id="rainbowMode">Rainbow Mode is currently off.</button><br><br>
+
+                    <!--RGB Mode-->
+                    <div id="chosenColor"></div><br>
+
+                    <label for="sliderR">Choose Red:</label>
+                    <input type="range" id="sliderR" name="sliderR" min="0" max="255" value="25">
+                       <span id="sliderValueR">25</span><br>
+
+                    <label for="sliderG">Choose Green:</label>
+                    <input type="range" id="sliderG" name="sliderG" min="0" max="255" value="50">
+                       <span id="sliderValueG">50</span><br>
+
+                    <label for="sliderB">Choose Blue:</label>
+                    <input type="range" id="sliderB" name="sliderB" min="0" max="255" value="50">
+                       <span id="sliderValueB">50</span><br>
+
+                <!--Reset Button--><br><br>
+                <button id="reset">Reset</button>
+            </div>
+        </div><br>
+        <footer>
+            <div>My Socials<div><br>
+                <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target="_blank" class = "plug">Youtube</a>
+                <a href="../../idk.html" class = "plug">Discord</a>
+                <a  href="../../idk.html" class = "plug">X or 'Twitter'</a>
+                <a href="../../idk.html" class = "plug">Instageam</a>
+                <br>
+                <br>
+            </footer>
+</body>
+</html>     
